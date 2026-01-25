@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+[x-cloak] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+}

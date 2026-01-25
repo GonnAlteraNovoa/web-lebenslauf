@@ -1,0 +1,204 @@
+{
+  "personal_information": {
+    "title": "Personal Information",
+    "fields": {
+      "first_name": "Gonzalo",
+      "last_name": "Altera Novoa",
+      "postal_code": "3074",
+      "location": "Muri bei Bern",
+      "country": "Switzerland",
+      "residence_permit": "B (EU/EFTA)",
+      "driving_license": "CH: Planned Soon"
+    },
+    "labels": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "job_title": "Job Title",
+      "email": "Email",
+      "phone": "Phone",
+      "street": "Street",
+      "postal_code": "Postal Code",
+      "location": "Location",
+      "country": "Country",
+      "residence_permit": "Residence Permit",
+      "driving_license": "Driving License"
+    }
+  },
+  "professional_summary": {
+    "title": "Professional Summary",
+    "text": "ICT Support / Hardware Technician with 15+ years of hands-on experience across desktop support, hardware repair, networking basics, and customer-facing troubleshooting. Background includes technical support in a web hosting environment (tickets + phone/chat), board-level microsoldering, and long-term freelance ICT support for households and SMEs. Strong Windows/macOS support, network fundamentals (DNS/DHCP/IP/Wi-Fi), Microsoft 365, and remote support tooling. German A2.2 (oral, fide) in progress; fluent Spanish and advanced English."
+  },
+  "core_skills": {
+    "title": "Core Skills",
+    "groups": [
+      {
+        "title": "IT Support & Operations",
+        "items": [
+          "Windows 10/11 troubleshooting (advanced), macOS troubleshooting (intermediate/advanced)",
+          "Hardware diagnostics & repair: PCs/laptops, component swaps (RAM/SSD/battery), peripherals",
+          "Printer & peripheral troubleshooting; endpoint security concepts; user support & documentation",
+          "Basic deployment/imaging (basic) | Remote support: RDP, AnyDesk, TeamViewer, Zoho Assist"
+        ]
+      },
+      {
+        "title": "Enterprise & Infrastructure (practical)",
+        "items": [
+          "Microsoft 365 / Outlook / Exchange basics (advanced user support)",
+          "Active Directory / account management (basic); Citrix environment exposure",
+          "Networking fundamentals (strong): DNS, DHCP, IP addressing, Wi-Fi troubleshooting",
+          "Hosting stack support: cPanel/WHM, Plesk, domains/DNS, email delivery (IMAP/SMTP), WordPress"
+        ]
+      },
+      {
+        "title": "Tools & Process",
+        "items": [
+          "Ticketing & case handling: Jira, WHMCS, Ubersmith (high-volume support workflows)",
+          "Clear customer communication; structured troubleshooting; escalation when required"
+        ]
+      }
+    ]
+  },
+  "professional_experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "company": "HostPapa",
+        "role": "Technical Support Specialist (Web Hosting Support)",
+        "start_date": "June 2022",
+        "end_date": "December 2024",
+        "location": "Remote - Ontario, Canada",
+        "highlights": [
+          "L1 technical support via tickets + calls/chat for hosting customers; high ownership of cases",
+          "Supported cPanel/WHM & Plesk environments, domains/DNS, email delivery (IMAP/SMTP), and WordPress troubleshooting",
+          "High first-contact resolution rate; collaborated closely with L2 and sysadmin teams",
+          "Typical throughput: ~30-50 tickets/day plus 5-20 calls/day during normal operations",
+          "Consistently strong QA/CSAT performance (reported >95% over multiple periods)",
+          "Participated in incident/disaster-recovery work (Citrix-related incident): validation tasks, customer communications, and infrastructure-level checks with expanded access (Acronis backups)"
+        ]
+      },
+      {
+        "company": "Telefonia ELESE - Multi-branch family business",
+        "role": "Electronics Repair Technician (Board-level / Microsoldering)",
+        "start_date": "September 2018",
+        "end_date": "June 2022",
+        "location": "Buenos Aires, Argentina",
+        "highlights": [
+          "Board-level diagnosis and microsoldering under microscope; SMD component rework and repair",
+          "Devices: iPhone (majority), Android phones, tablets/iPads, laptops (Mac/Windows), and misc. electronics",
+          "Diagnostics using multimeter (voltages/continuity/shorts); schematic reading for targeted testing (as needed)",
+          "Customer intake at counter: explained options, risks, costs, and repair viability; handled follow-up",
+          "Shop output: team handled ~20-30 repairs/day; success rate reported >90% with 3-month warranty"
+        ]
+      },
+      {
+        "company": "MedElec (Medicina Electronica) - Self-employed",
+        "role": "Owner / Freelance ICT Support & Hardware Technician",
+        "start_date": "2008",
+        "end_date": "Today",
+        "location": "Buenos Aires / AMBA, Argentina",
+        "highlights": [
+          "On-site and remote ICT support for households and SMEs (restaurants, offices, retail, associations)",
+          "Windows/macOS/Linux installations and configuration; PC build/repair; end-user troubleshooting",
+          "Consumer networking setup and Wi-Fi troubleshooting; CCTV deployments over Ethernet with secure remote access",
+          "Managed client communication, scheduling, quoting, billing (incl. formal invoicing via Monotributo)",
+          "Achieved high resolution rates (approx. >90% software, ~70% hardware); improved turnaround over time",
+          "Retainer client: Nodo Distribuciones - quarterly remote support + website/mail services administration"
+        ]
+      },
+      {
+        "company": "Familie Wiesner Gastronomie",
+        "role": "Kitchen Assistant (Hilfskoch)",
+        "start_date": "December 2024",
+        "end_date": "Today",
+        "location": "Nooch Westside (Bern, Switzerland)",
+        "category": "other",
+        "highlights": [
+          "Reliable performance in a high-pace environment; strong teamwork, accuracy, and consistency",
+          "Used role as a bridge job to integrate locally and improve German in daily practice"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "institution": "UTN CENS No. 451",
+        "degree": "Bachiller en Gestion y Administracion de Empresas (Diploma available)",
+        "start_date": "2008",
+        "end_date": "2010",
+        "location": "Buenos Aires, Argentina",
+        "highlights": []
+      },
+      {
+        "institution": "EET No. 7 Jose Hernandez",
+        "degree": "Technical Secondary Track (partial)",
+        "start_date": "2005",
+        "end_date": "2007",
+        "location": "Buenos Aires, Argentina",
+        "highlights": [
+          "Partial completion; technical coursework in programming fundamentals (C/C++), algorithms, and applied technology basics"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Advanced (EF SET 2022)"
+      },
+      {
+        "name": "German",
+        "level": "A2.2 (oral, fide; improving)"
+      },
+      {
+        "name": "Swiss German",
+        "level": "Basic"
+      },
+      {
+        "name": "Italian",
+        "level": "Basic (self-assessed)"
+      }
+    ]
+  },
+  "selected_projects": {
+    "title": "Selected Projects",
+    "items": [
+      {
+        "name": "Raspberry Pi automation",
+        "description": "Automation for daily/admin workflows (Linux-based); scripting and maintenance"
+      },
+      {
+        "name": "Analog synthesizer builds",
+        "description": "Electronics prototyping; practical circuit assembly and troubleshooting"
+      },
+      {
+        "name": "Game development & audio (hobby)",
+        "description": "Programming + sound design for interactive projects"
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates",
+    "items": [
+      {
+        "name": "German - fide course (Hospitality/Gastronomy)",
+        "issuer": "fide",
+        "date": "Jan 09, 2026",
+        "details": "Oral level A2.2 (confirmation)"
+      },
+      {
+        "name": "English - EF SET",
+        "issuer": "EF SET",
+        "date": "2022",
+        "details": "Score 76/100"
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web CV</title>
+  </head>
+  <body class="bg-linear-to-br from-stone-100 to-stone-300 text-slate-900">
+    <div id="app" x-data="app()" x-cloak class="min-h-screen">
+      <header class="mx-auto max-w-5xl px-4 py-6">
+        <div>
+          <div>
+            <span x-text="'Web'"></span>
+            <span x-text="'Lebenslauf by'"></span>
+          </div>
+          <div>
+            <button @click="set_lang('en')">EN</button>
+            <button @click="set_lang('de')">DE</button>
+            <button @click="set_lang('es')">ES</button>
+            <button>Login</button>
+          </div>
+        </div>
+      </header>
+      <main class="mx-auto max-w-5xl px-4 py-6">
+        <section>
+          <div>
+            <p x-text="content.personal_information.fields.job_title"></p>
+            <h1>
+              <span x-text="content.personal_information.fields.first_name"></span>
+              <span x-text="content.personal_information.fields.last_name"></span>
+            </h1>
+          </div>
+          <div>
+            <p x-text="content.personal_information.title"></p>
+            <ul>
+              <template x-for="item in personal_info_items" :key="item.key">
+                <li>
+                  <span x-text="item.label"></span>
+                  <span x-text="item.value"></span>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div x-show="content.professional_summary.text">
+            <h2 x-text="content.professional_summary.title"></h2>
+            <p x-text="content.professional_summary.text"></p>
+          </div>
+          <div x-show="content.core_skills.groups.length">
+            <h2 x-text="content.core_skills.title"></h2>
+            <div>
+              <template x-for="group in content.core_skills.groups" :key="group.title">
+                <div>
+                  <p x-text="group.title"></p>
+                  <ul>
+                    <template x-for="item in group.items" :key="item">
+                      <li x-text="item"></li>
+                    </template>
+                  </ul>
+                </div>
+              </template>
+            </div>
+          </div>
+          <div x-show="experience_items.length">
+            <h2 x-text="content.professional_experience.title"></h2>
+            <div>
+              <template x-for="item in experience_items" :key="item.company + item.role">
+                <div>
+                  <div>
+                    <div>
+                      <p x-text="item.company"></p>
+                      <p x-text="item.role"></p>
+                    </div>
+                    <div>
+                      <span x-text="item.start_date"></span>
+                      <span>-</span>
+                      <span x-text="item.end_date"></span>
+                    </div>
+                  </div>
+                  <p x-text="item.location"></p>
+                  <ul>
+                    <template x-for="point in item.highlights" :key="point">
+                      <li x-text="point"></li>
+                    </template>
+                  </ul>
+                </div>
+              </template>
+            </div>
+          </div>
+          <div x-show="content.education.items.length">
+            <h2 x-text="content.education.title"></h2>
+            <div>
+              <template x-for="item in content.education.items" :key="item.institution + item.degree">
+                <div>
+                  <div>
+                    <div>
+                      <p x-text="item.institution"></p>
+                      <p x-text="item.degree"></p>
+                    </div>
+                    <div>
+                      <span x-text="item.start_date"></span>
+                      <span>-</span>
+                      <span x-text="item.end_date"></span>
+                    </div>
+                  </div>
+                  <p x-text="item.location"></p>
+                  <ul x-show="item.highlights.length">
+                    <template x-for="point in item.highlights" :key="point">
+                      <li x-text="point"></li>
+                    </template>
+                  </ul>
+                </div>
+              </template>
+            </div>
+          </div>
+          <div>
+            <div x-show="content.languages.items.length">
+              <h2 x-text="content.languages.title"></h2>
+              <ul>
+                <template x-for="item in content.languages.items" :key="item.name">
+                  <li>
+                    <span x-text="item.name"></span>
+                    <span x-text="item.level"></span>
+                  </li>
+                </template>
+              </ul>
+            </div>
+            <div x-show="content.selected_projects.items.length">
+              <h2 x-text="content.selected_projects.title"></h2>
+              <div>
+                <template x-for="item in content.selected_projects.items" :key="item.name">
+                  <div>
+                    <p x-text="item.name"></p>
+                    <p x-text="item.description"></p>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+          <div x-show="content.certificates.items.length">
+            <h2 x-text="content.certificates.title"></h2>
+            <div>
+              <template x-for="item in content.certificates.items" :key="item.name">
+                <div>
+                  <p x-text="item.name"></p>
+                  <p>
+                    <span x-text="item.issuer"></span>
+                    <span x-show="item.date">-</span>
+                    <span x-text="item.date"></span>
+                  </p>
+                  <p x-text="item.details"></p>
+                </div>
+              </template>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="mx-auto max-w-5xl px-4 py-6">
+        <div>
+          Built with Alpine.js + Tailwind + NestJS
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

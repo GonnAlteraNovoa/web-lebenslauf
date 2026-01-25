@@ -1,0 +1,55 @@
+{
+  "personal_information": {
+    "title": "Personal Information",
+    "fields": {
+      "first_name": "",
+      "last_name": "",
+      "postal_code": "",
+      "location": "",
+      "country": "",
+      "residence_permit": "",
+      "driving_license": ""
+    },
+    "labels": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "job_title": "Job Title",
+      "email": "Email",
+      "phone": "Phone",
+      "street": "Street",
+      "postal_code": "Postal Code",
+      "location": "Location",
+      "country": "Country",
+      "residence_permit": "Residence Permit",
+      "driving_license": "Driving License"
+    }
+  },
+  "professional_summary": {
+    "title": "Professional Summary",
+    "text": ""
+  },
+  "core_skills": {
+    "title": "Core Skills",
+    "groups": []
+  },
+  "professional_experience": {
+    "title": "Professional Experience",
+    "items": []
+  },
+  "education": {
+    "title": "Education",
+    "items": []
+  },
+  "languages": {
+    "title": "Languages",
+    "items": []
+  },
+  "selected_projects": {
+    "title": "Selected Projects",
+    "items": []
+  },
+  "certificates": {
+    "title": "Certificates & Training",
+    "items": []
+  }
+}

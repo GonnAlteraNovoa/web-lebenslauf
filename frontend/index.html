@@ -9,7 +9,7 @@
   <body class="bg-linear-to-br from-stone-100 to-stone-300 text-slate-900">
     <div id="app" x-data="app()" x-cloak class="min-h-screen">
       <header class="mx-auto max-w-5xl px-4 py-6">
-        <div>
+        <div class="flex justify-between items-center">
           <div>
             <span x-text="'Web'"></span>
             <span x-text="'Lebenslauf by'"></span>
@@ -22,41 +22,55 @@
           </div>
         </div>
       </header>
-      <main class="mx-auto max-w-5xl px-4 py-6">
-        <section>
-          <div>
-            <p x-text="content.personal_information.fields.job_title"></p>
-            <h1>
-              <span x-text="content.personal_information.fields.first_name"></span>
-              <span x-text="content.personal_information.fields.last_name"></span>
-            </h1>
-          </div>
-          <div>
-            <p x-text="content.personal_information.title"></p>
-            <ul>
-              <template x-for="item in personal_info_items" :key="item.key">
-                <li>
-                  <span x-text="item.label"></span>
-                  <span x-text="item.value"></span>
-                </li>
-              </template>
-            </ul>
+      <main class="mx-auto max-w-5xl px-4 py-3">
+        <section class="space-y-10">
+          <div class="grid gap-10 lg:grid-cols-[1.4fr_0.6fr]">
+            <div>
+              <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+                <span x-text="content.personal_information.fields.first_name"></span>
+                <span x-text="content.personal_information.fields.last_name"></span>
+              </h1>
+              <div class="py-10" x-show="content.professional_summary.text">
+                <h2 class="text-xl font-semibold text-stone-800" x-text="content.professional_summary.title"></h2>
+                <p class="text-sm text-stone-600 leading-relaxed" x-text="content.professional_summary.text"></p>
+              </div>
+            </div>
+            <aside class="space-y-6 mt-8">
+              <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-3">
+                <p x-text="content.personal_information.title"></p>
+                <ul>
+                  <template x-for="item in personal_info_items" :key="item.key">
+                    <li class="text-sm text-stone-600 leading-relaxed">
+                      <span x-text="item.label"></span>
+                      <span x-text="item.value"></span>
+                    </li>
+                  </template>
+                </ul>
+              </div>
+              <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-3" x-show="content.languages.items.length">
+                <h2 class="text-xl font-semibold text-stone-800" x-text="content.languages.title"></h2>
+                <ul>
+                  <template x-for="item in content.languages.items" :key="item.name">
+                    <li class="text-sm text-stone-600 leading-relaxed">
+                      <span x-text="item.name"></span>
+                      <span x-text="item.level"></span>
+                    </li>
+                  </template>
+                </ul>
+              </div>
+            </aside>
           </div>
         </section>
-        <section>
-          <div x-show="content.professional_summary.text">
-            <h2 x-text="content.professional_summary.title"></h2>
-            <p x-text="content.professional_summary.text"></p>
-          </div>
+        <section class="space-y-10 mt-10">
           <div x-show="content.core_skills.groups.length">
-            <h2 x-text="content.core_skills.title"></h2>
-            <div>
+            <h2 class="text-xl font-semibold text-stone-800" x-text="content.core_skills.title"></h2>
+            <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-6">
               <template x-for="group in content.core_skills.groups" :key="group.title">
                 <div>
                   <p x-text="group.title"></p>
                   <ul>
                     <template x-for="item in group.items" :key="item">
-                      <li x-text="item"></li>
+                      <li class="text-sm text-stone-600 leading-relaxed" x-text="item"></li>
                     </template>
                   </ul>
                 </div>
@@ -64,10 +78,10 @@
             </div>
           </div>
           <div x-show="experience_items.length">
-            <h2 x-text="content.professional_experience.title"></h2>
-            <div>
+            <h2 class="text-xl font-semibold text-stone-800" x-text="content.professional_experience.title"></h2>
+            <div class="space-y-2">
               <template x-for="item in experience_items" :key="item.company + item.role">
-                <div>
+                <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-6">
                   <div>
                     <div>
                       <p x-text="item.company"></p>
@@ -82,7 +96,7 @@
                   <p x-text="item.location"></p>
                   <ul>
                     <template x-for="point in item.highlights" :key="point">
-                      <li x-text="point"></li>
+                      <li class="text-sm text-stone-600 leading-relaxed" x-text="point"></li>
                     </template>
                   </ul>
                 </div>
@@ -90,10 +104,10 @@
             </div>
           </div>
           <div x-show="content.education.items.length">
-            <h2 x-text="content.education.title"></h2>
-            <div>
+            <h2 class="text-xl font-semibold text-stone-800" x-text="content.education.title"></h2>
+            <div class="space-y-2">
               <template x-for="item in content.education.items" :key="item.institution + item.degree">
-                <div>
+                <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-6">
                   <div>
                     <div>
                       <p x-text="item.institution"></p>
@@ -108,51 +122,40 @@
                   <p x-text="item.location"></p>
                   <ul x-show="item.highlights.length">
                     <template x-for="point in item.highlights" :key="point">
-                      <li x-text="point"></li>
+                      <li class="text-sm text-stone-600 leading-relaxed" x-text="point"></li>
                     </template>
                   </ul>
                 </div>
               </template>
             </div>
           </div>
-          <div>
-            <div x-show="content.languages.items.length">
-              <h2 x-text="content.languages.title"></h2>
-              <ul>
-                <template x-for="item in content.languages.items" :key="item.name">
-                  <li>
-                    <span x-text="item.name"></span>
-                    <span x-text="item.level"></span>
-                  </li>
-                </template>
-              </ul>
-            </div>
+          <div class="grid gap-6 lg:grid-cols-2">
             <div x-show="content.selected_projects.items.length">
-              <h2 x-text="content.selected_projects.title"></h2>
-              <div>
+              <h2 class="text-xl font-semibold text-stone-800" x-text="content.selected_projects.title"></h2>
+              <div class="space-y-2">
                 <template x-for="item in content.selected_projects.items" :key="item.name">
-                  <div>
+                  <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-3">
                     <p x-text="item.name"></p>
                     <p x-text="item.description"></p>
                   </div>
                 </template>
               </div>
             </div>
-          </div>
-          <div x-show="content.certificates.items.length">
-            <h2 x-text="content.certificates.title"></h2>
-            <div>
-              <template x-for="item in content.certificates.items" :key="item.name">
-                <div>
-                  <p x-text="item.name"></p>
-                  <p>
-                    <span x-text="item.issuer"></span>
-                    <span x-show="item.date">-</span>
-                    <span x-text="item.date"></span>
-                  </p>
-                  <p x-text="item.details"></p>
-                </div>
-              </template>
+            <div x-show="content.certificates.items.length">
+              <h2 class="text-xl font-semibold text-stone-800" x-text="content.certificates.title"></h2>
+              <div class="space-y-2">
+                <template x-for="item in content.certificates.items" :key="item.name">
+                  <div class="bg-white/70 rounded-2xl border-stone-200/70 shadow-sm p-3">
+                    <p x-text="item.name"></p>
+                    <p>
+                      <span x-text="item.issuer"></span>
+                      <span x-show="item.date">-</span>
+                      <span x-text="item.date"></span>
+                    </p>
+                    <p x-text="item.details"></p>
+                  </div>
+                </template>
+              </div>
             </div>
           </div>
         </section>

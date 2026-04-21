@@ -2,6 +2,7 @@
   "personal_information": {
     "title": "Personal Information",
     "fields": {
+      "job_title":"IT Technician & Junior Developer",
       "first_name": "Gonzalo",
       "last_name": "Altera Novoa",
       "postal_code": "3074",
@@ -22,8 +23,12 @@
   },
   "professional_summary": {
     "title": "Professional Summary",
-    "text": "ICT Support / Hardware Technician with 15+ years of hands-on experience across desktop support, hardware repair, networking basics, and customer-facing troubleshooting. Background includes technical support in a web hosting environment (tickets + phone/chat), board-level microsoldering, and long-term freelance ICT support for households and SMEs. Strong Windows/macOS support, network fundamentals (DNS/DHCP/IP/Wi-Fi), Microsoft 365, and remote support tooling. German A2.2 (oral, fide) in progress; fluent Spanish and advanced English."
-  },
+    "text": [
+      "ICT Support / Hardware Technician with 15+ years of hands-on experience across desktop support, hardware repair, networking basics, and customer-facing troubleshooting.",
+      "Background includes technical support in a web hosting environment (tickets + phone/chat), board-level microsoldering, and long-term freelance ICT support for households and SMEs.",
+      "Strong Windows/macOS support, network fundamentals (DNS/DHCP/IP/Wi-Fi), Microsoft 365, and remote support tooling. German A2.2 (oral, fide) in progress; fluent Spanish and advanced English."
+    ]
+    },
   "core_skills": {
     "title": "Core Skills",
     "groups": [
@@ -142,24 +147,24 @@
     "title": "Languages",
     "items": [
       {
-        "name": "Spanish",
-        "level": "Native"
-      },
-      {
-        "name": "English",
-        "level": "Advanced (EF SET 2022)"
-      },
-      {
         "name": "German",
-        "level": "A2.2 (oral, fide; improving)"
+        "level": "A2.2 (oral, fide; improving)",
+        "flag": "🇩🇪"
       },
       {
         "name": "Swiss German",
-        "level": "Basic"
+        "level": "Basic",
+        "flag": "🇨🇭"
       },
       {
-        "name": "Italian",
-        "level": "Basic (self-assessed)"
+        "name": "English",
+        "level": "C2 (EF SET 2022)",
+        "flag": "🇺🇸"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native",
+        "flag": "🇦🇷"
       }
     ]
   },

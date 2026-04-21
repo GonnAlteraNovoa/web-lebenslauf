@@ -1,6 +1,6 @@
 {
   "personal_information": {
-    "title": "Personal Information",
+    "title": "",
     "fields": {
       "first_name": "",
       "last_name": "",
@@ -11,45 +11,45 @@
       "driving_license": ""
     },
     "labels": {
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "job_title": "Job Title",
-      "email": "Email",
-      "phone": "Phone",
-      "street": "Street",
-      "postal_code": "Postal Code",
-      "location": "Location",
-      "country": "Country",
-      "residence_permit": "Residence Permit",
-      "driving_license": "Driving License"
+      "first_name": "",
+      "last_name": "",
+      "job_title": "",
+      "email": "",
+      "phone": "",
+      "street": "",
+      "postal_code": "",
+      "location": "",
+      "country": "",
+      "residence_permit": "",
+      "driving_license": ""
     }
   },
   "professional_summary": {
-    "title": "Professional Summary",
+    "title": "",
     "text": ""
   },
   "core_skills": {
-    "title": "Core Skills",
+    "title": "",
     "groups": []
   },
   "professional_experience": {
-    "title": "Professional Experience",
+    "title": "",
     "items": []
   },
   "education": {
-    "title": "Education",
+    "title": "",
     "items": []
   },
   "languages": {
-    "title": "Languages",
+    "title": "",
     "items": []
   },
   "selected_projects": {
-    "title": "Selected Projects",
+    "title": "",
     "items": []
   },
   "certificates": {
-    "title": "Certificates & Training",
+    "title": "",
     "items": []
   }
 }

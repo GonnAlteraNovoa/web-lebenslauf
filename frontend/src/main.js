@@ -1,4 +1,4 @@
-import './style.css'
+import './output.css'
 import Alpine from 'alpinejs'
 import en from './data/en.json'
 import de from './data/de.json'
@@ -8,6 +8,7 @@ const dictionaries = { en, de, es }
 
 Alpine.data('app', () => ({
   is_logged_in: false,
+  is_dark_mode: false,
   current_lang: 'en',
   language_list: ['en', 'de', 'es'],
   visible_personal_info_keys: ['postal_code', 'location', 'country', 'residence_permit', 'driving_license'],
@@ -16,12 +17,31 @@ Alpine.data('app', () => ({
     if (saved && this.language_list.includes(saved)) {
       this.current_lang = saved
     }
+
+    const saved_theme = localStorage.getItem('theme')
+    if (saved_theme === 'dark') {
+      this.is_dark_mode = true
+      document.documentElement.classList.add('dark')
+    }
   },
   set_lang(lang) {
     if (!this.language_list.includes(lang)) return
     this.current_lang = lang
     localStorage.setItem('current_lang', lang)
   },
+
+  toggle_dark_mode() {
+    this.is_dark_mode = !this.is_dark_mode
+
+    if (this.is_dark_mode) {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
+    }
+  },
+
   get content() {
     return dictionaries[this.current_lang]
   },

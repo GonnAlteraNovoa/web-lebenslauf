@@ -1,55 +1,199 @@
 {
   "personal_information": {
-    "title": "",
+    "title": "Persönliche Angaben",
     "fields": {
-      "first_name": "",
-      "last_name": "",
-      "postal_code": "",
-      "location": "",
-      "country": "",
-      "residence_permit": "",
-      "driving_license": ""
+      "job_title": "IT-Techniker & Junior Developer",
+      "first_name": "Gonzalo",
+      "last_name": "Altera Novoa",
+      "postal_code": "3074",
+      "location": "Muri bei Bern, Schweiz",
+      "residence_permit": "B (EU/EFTA)",
+      "driving_license": "CH: Bald geplant"
     },
     "labels": {
-      "first_name": "",
-      "last_name": "",
-      "job_title": "",
-      "email": "",
-      "phone": "",
-      "street": "",
-      "postal_code": "",
-      "location": "",
-      "country": "",
-      "residence_permit": "",
-      "driving_license": ""
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "postal_code": "PLZ",
+      "location": "Ort",
+      "residence_permit": "Aufenthaltsbewilligung",
+      "driving_license": "Führerschein"
     }
   },
   "professional_summary": {
-    "title": "",
-    "text": ""
+    "title": "Profil",
+    "text": [
+      "ICT-Support- und Hardware-Techniker mit über 15 Jahren praktischer Erfahrung in Desktop-Support, Hardware-Reparatur, Netzwerkgrundlagen und kundenorientierter Fehlerbehebung.",
+      "Mein Hintergrund umfasst technischen Support in einer Webhosting-Umgebung (Tickets sowie Telefon/Chat), Board-Level-Mikrolöten und langjährigen freiberuflichen ICT-Support für Privathaushalte und KMU.",
+      "Fundierte Kenntnisse in Windows/macOS-Support, Netzwerkgrundlagen (DNS/DHCP/IP/Wi-Fi), Microsoft 365 und Remote-Support-Tools. Deutsch A2.2 (mündlich, fide) in Arbeit; Spanisch fliessend und Englisch auf fortgeschrittenem Niveau."
+    ]
   },
   "core_skills": {
-    "title": "",
-    "groups": []
+    "title": "Kernkompetenzen",
+    "groups": [
+      {
+        "title": "IT-Support & Betrieb",
+        "items": [
+          "Fehlerbehebung in Windows 10/11 (fortgeschritten), Fehlerbehebung in macOS (mittel bis fortgeschritten)",
+          "Hardware-Diagnose und -Reparatur: PCs/Laptops, Austausch von Komponenten (RAM/SSD/Akku), Peripherie",
+          "Fehlerbehebung bei Druckern und Peripherie; Grundlagen zu Endpoint Security; Benutzersupport und Dokumentation",
+          "Grundkenntnisse in Deployment/Imaging | Remote-Support: RDP, AnyDesk, TeamViewer, Zoho Assist"
+        ]
+      },
+      {
+        "title": "Enterprise & Infrastruktur (praktisch)",
+        "items": [
+          "Microsoft 365 / Outlook / Exchange Grundlagen (fortgeschrittener User Support)",
+          "Active Directory / Account-Management (Grundlagen); Erfahrung in Citrix-Umgebungen",
+          "Fundierte Netzwerkgrundlagen: DNS, DHCP, IP-Adressierung, Wi-Fi-Fehlerbehebung",
+          "Support für Hosting-Stacks: cPanel/WHM, Plesk, Domains/DNS, E-Mail-Zustellung (IMAP/SMTP), WordPress"
+        ]
+      },
+      {
+        "title": "Tools & Arbeitsweise",
+        "items": [
+          "Ticketing und Bearbeitung von Fällen: Jira, WHMCS, Ubersmith (Support-Workflows mit hohem Volumen)",
+          "Klare Kundenkommunikation; strukturierte Fehleranalyse; gezielte Weiterleitung komplexer Fälle an höhere Support-Level bei Bedarf."
+        ]
+      }
+    ]
   },
   "professional_experience": {
-    "title": "",
-    "items": []
+    "title": "Berufserfahrung",
+    "items": [
+      {
+        "company": "HostPapa",
+        "role": "Technical Support Specialist (Webhosting-Support)",
+        "start_date": "Jun 2022",
+        "end_date": "Dez 2024",
+        "location": "Remote - Ontario, Kanada",
+        "highlights": [
+          "L1-Techniksupport per Tickets sowie Anrufe/Chat für Hosting-Kunden; hohe Eigenverantwortung für Fälle",
+          "Support für cPanel/WHM- und Plesk-Umgebungen, Domains/DNS, E-Mail-Zustellung (IMAP/SMTP) und WordPress-Fehlerbehebung",
+          "Hohe First-Contact-Resolution; enge Zusammenarbeit mit L2- und Sysadmin-Teams",
+          "Typisches Volumen: ca. 30-50 Tickets pro Tag sowie 5-20 Anrufe pro Tag im Normalbetrieb",
+          "Konstant starke QA-/CSAT-Ergebnisse (über mehrere Zeiträume mit >95 % berichtet)",
+          "Mitwirkung bei Incident-/Disaster-Recovery-Arbeiten (Citrix-bezogener Vorfall): Validierungsaufgaben, Kundenkommunikation und Infrastrukturchecks mit erweiterten Zugriffsrechten (Acronis-Backups)"
+        ]
+      },
+      {
+        "company": "Telefonía ELESE - Familienunternehmen mit mehreren Filialen",
+        "role": "Elektronik-Reparaturtechniker (Board-Level / Mikrolöten)",
+        "start_date": "Sep 2018",
+        "end_date": "Jun 2022",
+        "location": "Buenos Aires, Argentinien",
+        "highlights": [
+          "Board-Level-Diagnose und Mikrolöten unter dem Mikroskop; Rework und Reparatur von SMD-Komponenten",
+          "Geräte: iPhone (mehrheitlich), Android-Smartphones, Tablets/iPads, Laptops (Mac/Windows) und weitere Elektronik",
+          "Diagnose mit Multimeter (Spannung/Durchgang/Kurzschlüsse); Schaltplanlesen für gezielte Tests bei Bedarf",
+          "Kundenannahme am Schalter: Optionen, Risiken, Kosten und Reparaturmöglichkeit erklärt; Nachverfolgung übernommen",
+          "Werkstattvolumen: Team bearbeitete ca. 20-30 Reparaturen pro Tag; Erfolgsquote >90 % mit 3 Monaten Garantie"
+        ]
+      },
+      {
+        "company": "MedElec (Medicina Electrónica) - Selbstständig",
+        "role": "Inhaber / Freelancer für ICT-Support & Hardware-Technik",
+        "start_date": "2008",
+        "end_date": "Heute",
+        "location": "Buenos Aires / AMBA, Argentinien",
+        "highlights": [
+          "Vor-Ort- und Remote-ICT-Support für Privathaushalte und KMU (Restaurants, Büros, Einzelhandel, Vereine)",
+          "Installation und Konfiguration von Windows/macOS/Linux; PC-Bau/Reparatur; Endanwender-Support",
+          "Einrichtung von Consumer-Netzwerken und Wi-Fi-Fehlerbehebung; CCTV-Installationen über Ethernet mit sicherem Fernzugriff",
+          "Kundenkommunikation, Terminplanung, Offerten und Rechnungsstellung verantwortet (inkl. formaler Fakturierung über Monotributo)",
+          "Hohe Lösungsquoten erreicht (ca. >90 % Software, ~70 % Hardware); Durchlaufzeiten laufend verbessert",
+          "Retainer-Kunde: Nodo Distribuciones - quartalsweiser Remote-Support sowie Administration von Website- und Mail-Diensten"
+        ]
+      },
+      {
+        "company": "Familie Wiesner Gastronomie",
+        "role": "Küchenmitarbeiter (Hilfskoch)",
+        "start_date": "Dez 2024",
+        "end_date": "Heute",
+        "location": "Nooch Westside + Miss Miu PostParc (Bern, Schweiz)",
+        "category": "other",
+        "highlights": [
+          "Zuverlässige Leistung in einem schnellen Umfeld; starke Teamarbeit, Genauigkeit und Konstanz",
+          "Die Stelle als Übergangsjob genutzt, um mich lokal zu integrieren und mein Deutsch im Alltag zu verbessern"
+        ]
+      }
+    ]
   },
   "education": {
-    "title": "",
-    "items": []
+    "title": "Ausbildung",
+    "items": [
+      {
+        "institution": "UTN CENS Nr. 451",
+        "degree": "Bachiller in Unternehmensmanagement und Verwaltung (Diplom vorhanden)",
+        "start_date": "2008",
+        "end_date": "2010",
+        "location": "Buenos Aires, Argentinien",
+        "highlights": []
+      },
+      {
+        "institution": "EET Nr. 7 José Hernández",
+        "degree": "Technische Sekundarschule (teilweise abgeschlossen)",
+        "start_date": "2005",
+        "end_date": "2007",
+        "location": "Buenos Aires, Argentinien",
+        "highlights": [
+          "Teilweise abgeschlossen; technischer Unterricht in Programmiergrundlagen (C/C++), Algorithmen und angewandter Technologie"
+        ]
+      }
+    ]
   },
   "languages": {
-    "title": "",
-    "items": []
+    "title": "Sprachen",
+    "items": [
+      {
+        "name": "Deutsch",
+        "level": "A2.2",
+        "flag": "\ud83c\udde9\ud83c\uddea",
+        "certificate": {
+          "label": "Zertifikat ansehen",
+          "issuer": "fide",
+          "date": "Jan 2026",
+          "url": "/certificates/DeutschkursBestaetigung.pdf"
+        }
+      },
+      {
+        "name": "Schweizerdeutsch",
+        "level": "Grundlagen",
+        "flag": "\ud83c\udde8\ud83c\udded"
+      },
+      {
+        "name": "Englisch",
+        "level": "C2",
+        "flag": "\ud83c\uddec\ud83c\udde7",
+        "certificate": {
+          "label": "Zertifikat ansehen",
+          "issuer": "EF SET",
+          "date": "2022",
+          "url": "https://cert.efset.org/8x4FEu"
+        }
+      },
+      {
+        "name": "Spanisch",
+        "level": "Muttersprache",
+        "flag": "\ud83c\udde6\ud83c\uddf7"
+      }
+    ]
   },
   "selected_projects": {
-    "title": "",
-    "items": []
-  },
-  "certificates": {
-    "title": "",
-    "items": []
+    "title": "Ausgewählte Projekte",
+    "items": [
+      {
+        "name": "Q-learning Snake AI",
+        "description": "Community-trainierter Snake-Agent mit klassischem Q-learning, AlpineJS, NestJS, Docker und PostgreSQL",
+        "url": "/projects/snake/"
+      },
+      {
+        "name": "Analoge Synthesizer-Bauten",
+        "description": "Elektronik-Prototyping; praktische Schaltungsmontage und Fehlerbehebung"
+      },
+      {
+        "name": "Game Development & Audio (Hobby)",
+        "description": "Programmierung und Sounddesign für interaktive Projekte"
+      }
+    ]
   }
 }

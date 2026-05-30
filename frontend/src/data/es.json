@@ -1,55 +1,199 @@
 {
   "personal_information": {
-    "title": "",
+    "title": "Información personal",
     "fields": {
-      "first_name": "",
-      "last_name": "",
-      "postal_code": "",
-      "location": "",
-      "country": "",
-      "residence_permit": "",
-      "driving_license": ""
+      "job_title": "Técnico IT y Junior Developer",
+      "first_name": "Gonzalo",
+      "last_name": "Altera Novoa",
+      "postal_code": "3074",
+      "location": "Muri bei Bern, Suiza",
+      "residence_permit": "B (EU/EFTA)",
+      "driving_license": "CH: Próximamente"
     },
     "labels": {
-      "first_name": "",
-      "last_name": "",
-      "job_title": "",
-      "email": "",
-      "phone": "",
-      "street": "",
-      "postal_code": "",
-      "location": "",
-      "country": "",
-      "residence_permit": "",
-      "driving_license": ""
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "postal_code": "Código postal",
+      "location": "Ubicación",
+      "residence_permit": "Permiso de residencia",
+      "driving_license": "Licencia de conducir"
     }
   },
   "professional_summary": {
-    "title": "",
-    "text": ""
+    "title": "Perfil profesional",
+    "text": [
+      "Técnico de soporte ICT y hardware con más de 15 años de experiencia práctica en soporte de escritorio, reparación de hardware, fundamentos de redes y resolución de problemas orientada al cliente.",
+      "Mi experiencia incluye soporte técnico en un entorno de web hosting (tickets y teléfono/chat), microsoldadura a nivel de placa y soporte ICT freelance a largo plazo para hogares y PYMES.",
+      "Sólidos conocimientos en soporte Windows/macOS, fundamentos de redes (DNS/DHCP/IP/Wi-Fi), Microsoft 365 y herramientas de soporte remoto. Alemán A2.2 (oral, fide) en progreso; español nativo e inglés avanzado."
+    ]
   },
   "core_skills": {
-    "title": "",
-    "groups": []
+    "title": "Competencias clave",
+    "groups": [
+      {
+        "title": "Soporte IT y operaciones",
+        "items": [
+          "Resolución de problemas en Windows 10/11 (avanzado), resolución de problemas en macOS (intermedio/avanzado)",
+          "Diagnóstico y reparación de hardware: PCs/laptops, cambio de componentes (RAM/SSD/batería), periféricos",
+          "Resolución de problemas en impresoras y periféricos; conceptos de seguridad de endpoints; soporte al usuario y documentación",
+          "Conocimientos básicos de deployment/imaging | Soporte remoto: RDP, AnyDesk, TeamViewer, Zoho Assist"
+        ]
+      },
+      {
+        "title": "Enterprise e infraestructura (práctico)",
+        "items": [
+          "Fundamentos de Microsoft 365 / Outlook / Exchange (soporte avanzado al usuario)",
+          "Active Directory / gestión de cuentas (básico); experiencia en entornos Citrix",
+          "Fundamentos sólidos de redes: DNS, DHCP, direccionamiento IP, resolución de problemas Wi-Fi",
+          "Soporte de stacks de hosting: cPanel/WHM, Plesk, dominios/DNS, entrega de correo (IMAP/SMTP), WordPress"
+        ]
+      },
+      {
+        "title": "Herramientas y forma de trabajo",
+        "items": [
+          "Ticketing y gestión de casos: Jira, WHMCS, Ubersmith (flujos de soporte de alto volumen)",
+          "Comunicación clara con clientes; troubleshooting estructurado; escalado cuando es necesario"
+        ]
+      }
+    ]
   },
   "professional_experience": {
-    "title": "",
-    "items": []
+    "title": "Experiencia profesional",
+    "items": [
+      {
+        "company": "HostPapa",
+        "role": "Technical Support Specialist (Soporte de Web Hosting)",
+        "start_date": "Jun 2022",
+        "end_date": "Dic 2024",
+        "location": "Remoto - Ontario, Canadá",
+        "highlights": [
+          "Soporte técnico L1 por tickets y llamadas/chat para clientes de hosting; alta responsabilidad sobre los casos",
+          "Soporte de entornos cPanel/WHM y Plesk, dominios/DNS, entrega de correo (IMAP/SMTP) y resolución de problemas en WordPress",
+          "Alta tasa de resolución en primer contacto; colaboración estrecha con equipos L2 y sysadmin",
+          "Volumen típico: aprox. 30-50 tickets por día y 5-20 llamadas por día en operaciones normales",
+          "Resultados sólidos y consistentes en QA/CSAT (reportado >95 % en múltiples periodos)",
+          "Participación en tareas de incident/disaster recovery (incidente relacionado con Citrix): validaciones, comunicación con clientes y chequeos de infraestructura con acceso ampliado (backups Acronis)"
+        ]
+      },
+      {
+        "company": "Telefonía ELESE - Empresa familiar con varias sucursales",
+        "role": "Técnico en reparación electrónica (Board-level / Microsoldadura)",
+        "start_date": "Sep 2018",
+        "end_date": "Jun 2022",
+        "location": "Buenos Aires, Argentina",
+        "highlights": [
+          "Diagnóstico a nivel de placa y microsoldadura con microscopio; rework y reparación de componentes SMD",
+          "Dispositivos: iPhone (la mayoría), teléfonos Android, tablets/iPads, laptops (Mac/Windows) y otros equipos electrónicos",
+          "Diagnóstico con multímetro (voltajes/continuidad/cortos); lectura de esquemáticos para pruebas dirigidas cuando hacía falta",
+          "Recepción de clientes en mostrador: explicación de opciones, riesgos, costos y viabilidad de la reparación; seguimiento posterior",
+          "Volumen del taller: el equipo manejaba aprox. 20-30 reparaciones por día; tasa de éxito >90 % con 3 meses de garantía"
+        ]
+      },
+      {
+        "company": "MedElec (Medicina Electrónica) - Independiente",
+        "role": "Propietario / Soporte ICT y técnico de hardware freelance",
+        "start_date": "2008",
+        "end_date": "Hoy",
+        "location": "Buenos Aires / AMBA, Argentina",
+        "highlights": [
+          "Soporte ICT presencial y remoto para hogares y PYMES (restaurantes, oficinas, comercios, asociaciones)",
+          "Instalación y configuración de Windows/macOS/Linux; armado/reparación de PCs; soporte al usuario final",
+          "Configuración de redes domésticas y resolución de problemas Wi-Fi; instalaciones CCTV por Ethernet con acceso remoto seguro",
+          "Gestión de comunicación con clientes, agenda, presupuestos y facturación (incluyendo facturación formal vía Monotributo)",
+          "Altas tasas de resolución alcanzadas (aprox. >90 % software, ~70 % hardware); mejora continua en tiempos de entrega",
+          "Cliente con abono: Nodo Distribuciones - soporte remoto trimestral y administración de servicios web y correo"
+        ]
+      },
+      {
+        "company": "Familie Wiesner Gastronomie",
+        "role": "Ayudante de cocina (Hilfskoch)",
+        "start_date": "Dic 2024",
+        "end_date": "Hoy",
+        "location": "Nooch Westside + Miss Miu PostParc (Berna, Suiza)",
+        "category": "other",
+        "highlights": [
+          "Desempeño fiable en un entorno de ritmo alto; fuerte trabajo en equipo, precisión y consistencia",
+          "Utilicé este puesto como trabajo puente para integrarme localmente y mejorar mi alemán en la práctica diaria"
+        ]
+      }
+    ]
   },
   "education": {
-    "title": "",
-    "items": []
+    "title": "Educación",
+    "items": [
+      {
+        "institution": "UTN CENS No. 451",
+        "degree": "Bachiller en Gestión y Administración de Empresas (diploma disponible)",
+        "start_date": "2008",
+        "end_date": "2010",
+        "location": "Buenos Aires, Argentina",
+        "highlights": []
+      },
+      {
+        "institution": "EET No. 7 José Hernández",
+        "degree": "Secundario técnico (completo parcial)",
+        "start_date": "2005",
+        "end_date": "2007",
+        "location": "Buenos Aires, Argentina",
+        "highlights": [
+          "Completado parcialmente; formación técnica en fundamentos de programación (C/C++), algoritmos y bases de tecnología aplicada"
+        ]
+      }
+    ]
   },
   "languages": {
-    "title": "",
-    "items": []
+    "title": "Idiomas",
+    "items": [
+      {
+        "name": "Alemán",
+        "level": "A2.2",
+        "flag": "\ud83c\udde9\ud83c\uddea",
+        "certificate": {
+          "label": "Ver certificado",
+          "issuer": "fide",
+          "date": "Ene 2026",
+          "url": "/certificates/DeutschkursBestaetigung.pdf"
+        }
+      },
+      {
+        "name": "Suizo alemán",
+        "level": "Básico",
+        "flag": "\ud83c\udde8\ud83c\udded"
+      },
+      {
+        "name": "Inglés",
+        "level": "C2",
+        "flag": "\ud83c\uddec\ud83c\udde7",
+        "certificate": {
+          "label": "Ver certificado",
+          "issuer": "EF SET",
+          "date": "2022",
+          "url": "https://cert.efset.org/8x4FEu"
+        }
+      },
+      {
+        "name": "Español",
+        "level": "Nativo",
+        "flag": "\ud83c\udde6\ud83c\uddf7"
+      }
+    ]
   },
   "selected_projects": {
-    "title": "",
-    "items": []
-  },
-  "certificates": {
-    "title": "",
-    "items": []
+    "title": "Proyectos seleccionados",
+    "items": [
+      {
+        "name": "Snake AI con Q-learning",
+        "description": "Agente Snake entrenado por la comunidad con Q-learning clásico, AlpineJS, NestJS, Docker y PostgreSQL",
+        "url": "/projects/snake/"
+      },
+      {
+        "name": "Construcción de sintetizadores analógicos",
+        "description": "Prototipado electrónico; montaje práctico de circuitos y resolución de fallos"
+      },
+      {
+        "name": "Desarrollo de videojuegos y audio (hobby)",
+        "description": "Programación y diseño sonoro para proyectos interactivos"
+      }
+    ]
   }
 }

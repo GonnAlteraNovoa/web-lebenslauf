@@ -2,12 +2,11 @@
   "personal_information": {
     "title": "Personal Information",
     "fields": {
-      "job_title":"IT Technician & Junior Developer",
+      "job_title": "IT Technician & Junior Developer",
       "first_name": "Gonzalo",
       "last_name": "Altera Novoa",
       "postal_code": "3074",
-      "location": "Muri bei Bern",
-      "country": "Switzerland",
+      "location": "Muri bei Bern, Switzerland",
       "residence_permit": "B (EU/EFTA)",
       "driving_license": "CH: Planned Soon"
     },
@@ -16,7 +15,6 @@
       "last_name": "Last Name",
       "postal_code": "Postal Code",
       "location": "Location",
-      "country": "Country",
       "residence_permit": "Residence Permit",
       "driving_license": "Driving License"
     }
@@ -28,7 +26,7 @@
       "Background includes technical support in a web hosting environment (tickets + phone/chat), board-level microsoldering, and long-term freelance ICT support for households and SMEs.",
       "Strong Windows/macOS support, network fundamentals (DNS/DHCP/IP/Wi-Fi), Microsoft 365, and remote support tooling. German A2.2 (oral, fide) in progress; fluent Spanish and advanced English."
     ]
-    },
+  },
   "core_skills": {
     "title": "Core Skills",
     "groups": [
@@ -65,8 +63,8 @@
       {
         "company": "HostPapa",
         "role": "Technical Support Specialist (Web Hosting Support)",
-        "start_date": "June 2022",
-        "end_date": "December 2024",
+        "start_date": "Jun 2022",
+        "end_date": "Dec 2024",
         "location": "Remote - Ontario, Canada",
         "highlights": [
           "L1 technical support via tickets + calls/chat for hosting customers; high ownership of cases",
@@ -78,10 +76,10 @@
         ]
       },
       {
-        "company": "Telefonia ELESE - Multi-branch family business",
+        "company": "Telefonía ELESE - Multi-branch family business",
         "role": "Electronics Repair Technician (Board-level / Microsoldering)",
-        "start_date": "September 2018",
-        "end_date": "June 2022",
+        "start_date": "Sep 2018",
+        "end_date": "Jun 2022",
         "location": "Buenos Aires, Argentina",
         "highlights": [
           "Board-level diagnosis and microsoldering under microscope; SMD component rework and repair",
@@ -92,7 +90,7 @@
         ]
       },
       {
-        "company": "MedElec (Medicina Electronica) - Self-employed",
+        "company": "MedElec (Medicina Electrónica) - Self-employed",
         "role": "Owner / Freelance ICT Support & Hardware Technician",
         "start_date": "2008",
         "end_date": "Today",
@@ -109,9 +107,9 @@
       {
         "company": "Familie Wiesner Gastronomie",
         "role": "Kitchen Assistant (Hilfskoch)",
-        "start_date": "December 2024",
+        "start_date": "Dec 2024",
         "end_date": "Today",
-        "location": "Nooch Westside (Bern, Switzerland)",
+        "location": "Nooch Westside + Miss Miu PostParc (Bern, Switzerland)",
         "category": "other",
         "highlights": [
           "Reliable performance in a high-pace environment; strong teamwork, accuracy, and consistency",
@@ -125,14 +123,14 @@
     "items": [
       {
         "institution": "UTN CENS No. 451",
-        "degree": "Bachiller en Gestion y Administracion de Empresas (Diploma available)",
+        "degree": "Bachiller en Gestión y Administración de Empresas (Diploma available)",
         "start_date": "2008",
         "end_date": "2010",
         "location": "Buenos Aires, Argentina",
         "highlights": []
       },
       {
-        "institution": "EET No. 7 Jose Hernandez",
+        "institution": "EET No. 7 José Hernández",
         "degree": "Technical Secondary Track (partial)",
         "start_date": "2005",
         "end_date": "2007",
@@ -148,23 +146,35 @@
     "items": [
       {
         "name": "German",
-        "level": "A2.2 (oral, fide; improving)",
-        "flag": "🇩🇪"
+        "level": "A2.2",
+        "flag": "\ud83c\udde9\ud83c\uddea",
+        "certificate": {
+          "label": "View certificate",
+          "issuer": "fide",
+          "date": "Jan 2026",
+          "url": "/certificates/DeutschkursBestaetigung.pdf"
+        }
       },
       {
         "name": "Swiss German",
         "level": "Basic",
-        "flag": "🇨🇭"
+        "flag": "\ud83c\udde8\ud83c\udded"
       },
       {
         "name": "English",
-        "level": "C2 (EF SET 2022)",
-        "flag": "🇺🇸"
+        "level": "C2",
+        "flag": "\ud83c\uddec\ud83c\udde7",
+        "certificate": {
+          "label": "View certificate",
+          "issuer": "EF SET",
+          "date": "2022",
+          "url": "https://cert.efset.org/8x4FEu"
+        }
       },
       {
         "name": "Spanish",
         "level": "Native",
-        "flag": "🇦🇷"
+        "flag": "\ud83c\udde6\ud83c\uddf7"
       }
     ]
   },
@@ -172,8 +182,9 @@
     "title": "Selected Projects",
     "items": [
       {
-        "name": "Raspberry Pi automation",
-        "description": "Automation for daily/admin workflows (Linux-based); scripting and maintenance"
+        "name": "Q-learning Snake AI",
+        "description": "Community-trained Snake agent using classic Q-learning, AlpineJS, NestJS, Docker, and PostgreSQL",
+        "url": "/projects/snake/"
       },
       {
         "name": "Analog synthesizer builds",
@@ -182,23 +193,6 @@
       {
         "name": "Game development & audio (hobby)",
         "description": "Programming + sound design for interactive projects"
-      }
-    ]
-  },
-  "certificates": {
-    "title": "Certificates",
-    "items": [
-      {
-        "name": "German - fide course (Hospitality/Gastronomy)",
-        "issuer": "fide",
-        "date": "Jan 09, 2026",
-        "details": "Oral level A2.2 (confirmation)"
-      },
-      {
-        "name": "English - EF SET",
-        "issuer": "EF SET",
-        "date": "2022",
-        "details": "Score 76/100"
       }
     ]
   }

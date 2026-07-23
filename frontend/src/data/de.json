@@ -2,7 +2,7 @@
   "personal_information": {
     "title": "Persönliche Angaben",
     "fields": {
-      "job_title": "IT-Techniker & Junior Developer",
+      "job_title": "IT-Support & Hardware-Techniker | Junior Developer",
       "first_name": "Gonzalo",
       "last_name": "Altera Novoa",
       "postal_code": "3074",
@@ -45,7 +45,8 @@
           "Microsoft 365 / Outlook / Exchange Grundlagen (fortgeschrittener User Support)",
           "Active Directory / Account-Management (Grundlagen); Erfahrung in Citrix-Umgebungen",
           "Fundierte Netzwerkgrundlagen: DNS, DHCP, IP-Adressierung, Wi-Fi-Fehlerbehebung",
-          "Support für Hosting-Stacks: cPanel/WHM, Plesk, Domains/DNS, E-Mail-Zustellung (IMAP/SMTP), WordPress"
+          "Support für Hosting-Stacks: cPanel/WHM, Plesk, Domains/DNS, E-Mail-Zustellung (IMAP/SMTP), WordPress",
+          "Linux-Grundlagen: Installation, Fehlerbehebung über die Kommandozeile, SSH-basierte Remote-Administration, Docker und Portainer"
         ]
       },
       {
@@ -68,7 +69,7 @@
         "location": "Remote - Ontario, Kanada",
         "highlights": [
           "L1-Techniksupport per Tickets sowie Anrufe/Chat für Hosting-Kunden; hohe Eigenverantwortung für Fälle",
-          "Support für cPanel/WHM- und Plesk-Umgebungen, Domains/DNS, E-Mail-Zustellung (IMAP/SMTP) und WordPress-Fehlerbehebung",
+          "Support von cPanel/WHM- und Plesk-Umgebungen über Control Panels und SSH; Fehlerbehebung bei Domains und DNS, E-Mail-Zustellung (IMAP/SMTP), WordPress sowie häufigen Linux-Hosting-Problemen",
           "Hohe First-Contact-Resolution; enge Zusammenarbeit mit L2- und Sysadmin-Teams",
           "Typisches Volumen: ca. 30-50 Tickets pro Tag sowie 5-20 Anrufe pro Tag im Normalbetrieb",
           "Konstant starke QA-/CSAT-Ergebnisse (über mehrere Zeiträume mit >95 % berichtet)",

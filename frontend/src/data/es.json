@@ -2,7 +2,7 @@
   "personal_information": {
     "title": "Información personal",
     "fields": {
-      "job_title": "Técnico IT y Junior Developer",
+      "job_title": "Soporte IT y Técnico de Hardware | Junior Developer",
       "first_name": "Gonzalo",
       "last_name": "Altera Novoa",
       "postal_code": "3074",
@@ -45,7 +45,8 @@
           "Fundamentos de Microsoft 365 / Outlook / Exchange (soporte avanzado al usuario)",
           "Active Directory / gestión de cuentas (básico); experiencia en entornos Citrix",
           "Fundamentos sólidos de redes: DNS, DHCP, direccionamiento IP, resolución de problemas Wi-Fi",
-          "Soporte de stacks de hosting: cPanel/WHM, Plesk, dominios/DNS, entrega de correo (IMAP/SMTP), WordPress"
+          "Soporte de stacks de hosting: cPanel/WHM, Plesk, dominios/DNS, entrega de correo (IMAP/SMTP), WordPress",
+          "Fundamentos de Linux: instalación, resolución de problemas mediante línea de comandos, administración remota mediante SSH, Docker y Portainer"
         ]
       },
       {
@@ -68,7 +69,7 @@
         "location": "Remoto - Ontario, Canadá",
         "highlights": [
           "Soporte técnico L1 por tickets y llamadas/chat para clientes de hosting; alta responsabilidad sobre los casos",
-          "Soporte de entornos cPanel/WHM y Plesk, dominios/DNS, entrega de correo (IMAP/SMTP) y resolución de problemas en WordPress",
+          "Soporte de entornos cPanel/WHM y Plesk mediante paneles de control y SSH; resolución de problemas de dominios y DNS, entrega de correo (IMAP/SMTP), WordPress y problemas comunes de hosting Linux",
           "Alta tasa de resolución en primer contacto; colaboración estrecha con equipos L2 y sysadmin",
           "Volumen típico: aprox. 30-50 tickets por día y 5-20 llamadas por día en operaciones normales",
           "Resultados sólidos y consistentes en QA/CSAT (reportado >95 % en múltiples periodos)",

@@ -182,6 +182,11 @@
     "title": "Selected Projects",
     "items": [
       {
+        "name": "Raspberry Pi Job Monitoring Automation",
+        "description": "Self-hosted, continuously running job-monitoring system using Linux, Docker/Portainer, n8n, and Telegram Bot alerts; includes headless administration, workflow configuration, and container/network troubleshooting.",
+        "url": "https://github.com/GonnAlteraNovoa/job-watcher-pi"
+      },
+      {
         "name": "Q-learning Snake AI",
         "description": "Community-trained Snake agent using classic Q-learning, AlpineJS, NestJS, Docker, and PostgreSQL",
         "url": "/projects/snake/"

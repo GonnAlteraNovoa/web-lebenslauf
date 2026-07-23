@@ -182,6 +182,11 @@
     "title": "Proyectos seleccionados",
     "items": [
       {
+        "name": "Automatización de monitoreo de empleos con Raspberry Pi",
+        "description": "Sistema autoalojado y de ejecución continua para monitorear ofertas de empleo mediante Linux, Docker/Portainer, n8n y alertas de un bot de Telegram; incluye administración sin monitor, configuración de flujos de trabajo y resolución de problemas de contenedores y red.",
+        "url": "https://github.com/GonnAlteraNovoa/job-watcher-pi"
+      },
+      {
         "name": "Snake AI con Q-learning",
         "description": "Agente Snake entrenado por la comunidad con Q-learning clásico, AlpineJS, NestJS, Docker y PostgreSQL",
         "url": "/projects/snake/"
